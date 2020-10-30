@@ -1,6 +1,6 @@
 package academy.learnprogramming.service;
 
-import academy.learnprogramming.enity.Todo;
+import academy.learnprogramming.entity.Todo;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
