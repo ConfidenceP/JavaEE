@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/familyDirectory" />
     <file type="web" url="file://$PROJECT_DIR$/hello-javaee8" />
     <file type="web" url="file://$PROJECT_DIR$/hello-todo" />
   </component>
@@ -9,6 +10,7 @@
       <list>
         <option value="$PROJECT_DIR$/hello-todo/pom.xml" />
         <option value="$PROJECT_DIR$/hello-javaee8/pom.xml" />
+        <option value="$PROJECT_DIR$/familyDirectory/pom.xml" />
       </list>
     </option>
   </component>

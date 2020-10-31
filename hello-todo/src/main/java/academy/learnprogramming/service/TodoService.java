@@ -7,11 +7,11 @@ import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import java.util.List;
 
-@Transactional
+@Transactional // Access and update data on resources
 public class TodoService {
 
-    @PersistenceContext
-    EntityManager entityManager;
+    @PersistenceContext // Injects the EntityManager
+    EntityManager entityManager; // Actions on entity object: persist, merge, find, createQuery, refresh, clear, contains, detach
 
     public Todo createTodo(Todo todo) {
         // Persist into DB

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="familyDirectory:war">
+    <output-path>$PROJECT_DIR$/familyDirectory/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>familyDirectory</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="familyDirectory.war">
+      <element id="artifact" artifact-name="familyDirectory:war exploded" />
+    </root>
+  </artifact>
+</component>
