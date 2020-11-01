@@ -2,13 +2,12 @@ package me.confidence.entity;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-import javax.inject.Inject;
 import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Child implements Serializable {
-    
+
     private Logger logger;
 
     private String name;
